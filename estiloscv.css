@@ -14,7 +14,7 @@ font-family: sans-serif;
 .print-area .header{
     width: 100%;
     height: 150px;
-    background-color: rgb(24, 50, 126);
+    background-color: rgba(3, 26, 88, 0.811);
     display: flex;
     align-items: center;
     position: relative;
@@ -26,15 +26,15 @@ font-family: sans-serif;
     position: absolute;
     top: 50px;
     left: 45px;
-    border: 5px solid white;
-    box-shadow: 3px 3px 10px rgba(36, 36, 36, 0.5);
+    border: 5px solid rgb(4, 4, 58);
+    box-shadow: 3px 3px 10px rgba(64, 105, 159, 0.5);
     cursor: pointer;
     transition: .5s;
     user-select: none;
-    filter: grayscale(50%);
+    filter: bluescale(50%);
 }
 .header img:hover{
-    filter: grayscale(0%);
+    filter: blur .5%);
     transform: scale(1.05);
     box-shadow: 3px 3px 10px rgba(0,0,0, .5);
 }
@@ -51,7 +51,7 @@ font-family: sans-serif;
 }
 .header-text p{
     font-size: 20px;
-    color: lightgrey;
+    color: rgb(198, 203, 244);
 }
 .content{
     display: flex;
@@ -59,7 +59,7 @@ font-family: sans-serif;
 }
 .left-area{
     width: 28%;
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(150, 158, 196);
     text-align: center;
     padding-bottom: 20px;
 }
@@ -129,12 +129,13 @@ font-family: sans-serif;
 }
 .follow p{
     font-size: 15px;
-    color: gray;
+    color: rgb(64, 52, 169);
 }
 
 .right-area{
     width: 72%;
     padding: 50px;
+    background-color: rgba(146, 153, 230, 0.459);
 }
 .right-area h1{
     font-size: 35px;
@@ -143,13 +144,13 @@ font-family: sans-serif;
 .right-area h1 span{
     margin-right: 40px;
     font-size: 50px;
-    color: lightgrey;
+    color: rgb(24, 24, 69);
 }
 .right-area p{
     padding-left: 50px;
     text-align: justify;
     font-size: 17px;
-    color: lightgrey;
+    color: rgb(22, 21, 47);
     margin-top: 10px;
 }
 .work-group{
